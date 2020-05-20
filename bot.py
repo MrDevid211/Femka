@@ -92,7 +92,7 @@ try:
         return ConversationHandler.END
 
     def main():
-        updater = Updater("1295270283:AAFl6wAPjnGd6m8mlO5vMtvBfcegO-AZOKg", use_context=True)
+        updater = Updater("Тут должен быть токен", use_context=True)
         dp = updater.dispatcher
 
         photo_handler = MessageHandler(Filters.photo, photo)
